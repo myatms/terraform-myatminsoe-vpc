@@ -1,8 +1,3 @@
-variable "aws_region" {
-  description = "The Region of AWS"
-  type        = string
-
-}
 
 #VPC CIDR
 variable "vpc-cidr" {
