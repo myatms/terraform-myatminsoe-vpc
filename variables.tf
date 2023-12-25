@@ -1,10 +1,3 @@
-variable "aws_region" {
-  description = "AWS Region"
-  type = string
-  default = "ap-southeast-1"
-  
-}
-
 #VPC CIDR
 variable "vpc-cidr" {
   description = "VPC CIDR"
